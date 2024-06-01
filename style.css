@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.roboto-slab{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+.navdiv {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white; 
+    z-index: 1000;
+    backdrop-filter: blur(5px); 
+}
+.navbar {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 1rem 2rem; 
+    backdrop-filter: blur(5px); 
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    margin: 0;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+button {
+    background-color: #04DDB2;
+    border-radius: 100px;
+    width: 148px;
+    height: 42px;
+    border: none; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transition:all 0.5s ;
+}
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+button:hover{
+    transform: scale(1.05);
+}
+li a {
+    color: gray;
+    font-size: 1.5rem;
+}
+.hading {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    padding: 0.5rem;
+    font-size: 4rem;
+}
+#heading1 {
+    color: black;
+    opacity: 0.75;
+}
+#heading2 {
+    color: #04DDB2;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+#pdetail {
+    color: black;
+    opacity: 0.75;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 4.5rem;
+}
+image{
+    border-radius: 50px;
+}
+.para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    font-size: 56px;
+    opacity: 0.75;
+}
+.btn-align{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+hr{
+    margin-top: 5rem;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(5,270px);
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #333;
+}
+ol{
+    list-style: none;
+}
+.footer li{
+    padding-top: 20px;
+}
+.low{
+    opacity: 0.85;
+}
+.symbol{
+    display: flex;
+}
+.symbol li{
+    padding-right: 35px;
+    font-size: 2rem;
+}
+.fa-brands{
+    color: #04DDB2;
+}
+.authorname{
+    grid-column: 3/4;
+    margin-top: 3rem;
+    width: 100%;
+    color: orangered;
+}
+.nameadjust{
+    display: flex;
+    justify-content: center;
+}
