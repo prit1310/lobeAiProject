@@ -114,7 +114,7 @@ footer{
     grid-template-columns: repeat(5,270px);
     margin-top: 50px;
     margin-bottom: 60px;
-    padding: 3rem;
+    padding: 4rem;
 }
 .footer{
     display: flex;
