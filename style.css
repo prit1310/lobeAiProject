@@ -119,7 +119,7 @@ footer {
     grid-template-columns: repeat(5, 270px);
     margin-top: 50px;
     margin-bottom: 60px;
-    padding: 3rem;
+    padding: 0.5rem;
 }
 .footer {
     display: flex;
@@ -187,7 +187,7 @@ ol {
         font-size: 1.75rem;
     }
     .hading {
-        margin-top: 20rem; 
+        margin-top: 18rem; 
         flex-direction: row;
     }
     .title {
@@ -197,7 +197,7 @@ ol {
     .para {
         font-size: 1.25rem;
         text-align: center;
-        padding: 0 1rem;
+        padding: 1rem;
     }
     #pdetail {
         font-size: 1rem;
@@ -241,41 +241,5 @@ ol {
     .authorname {
         grid-column: 1 / -1;
         margin-top: 1.5rem;
-    }
-}
-@media (max-width: 1024px) {
-    .navbar {
-        padding: 1rem 1.5rem;
-    }
-    ul {
-        gap: 1.5rem;
-    }
-    li a {
-        font-size: 1.25rem;
-    }
-    button {
-        width: 130px;
-        height: 38px;
-    }
-    button a {
-        font-size: 1rem;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    .hading {
-        margin-top: 10rem;
-    }
-    .title {
-        font-size: 2.5rem;
-    }
-    .para {
-        font-size: 1.5rem;
-    }
-    #pdetail {
-        font-size: 1.25rem;
-    }
-    .para1 {
-        font-size: 2.5rem;
     }
 }
