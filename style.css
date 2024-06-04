@@ -4,26 +4,31 @@
     padding: 0;
     text-decoration: none;
 }
-.roboto-slab{
+.roboto-slab {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-  }
+}
 .navdiv {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: white; 
+    background-color: white;
     z-index: 1000;
-    backdrop-filter: blur(5px); 
+    backdrop-filter: blur(5px);
 }
 .navbar {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem; 
-    backdrop-filter: blur(5px); 
+    padding: 1rem 2rem;
+    width: 100%;
+}
+.navbar h1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 ul {
     display: flex;
@@ -40,18 +45,18 @@ button {
     border-radius: 100px;
     width: 148px;
     height: 42px;
-    border: none; 
-    display: flex; 
+    border: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-    transition:all 0.5s ;
+    transition: all 0.5s;
 }
 button a {
     color: white;
     font-weight: bold;
     font-size: 1.25rem;
 }
-button:hover{
+button:hover {
     transform: scale(1.05);
 }
 li a {
@@ -59,7 +64,7 @@ li a {
     font-size: 1.5rem;
 }
 .hading {
-    margin-top: 5rem;
+    margin-top: 8rem; 
     display: flex;
     justify-content: center;
 }
@@ -78,22 +83,22 @@ li a {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 #pdetail {
     color: black;
     opacity: 0.75;
 }
-.image{
+.image {
     display: flex;
     justify-content: center;
     border-radius: 50px;
     margin-top: 4.5rem;
 }
-image{
+.image img {
     border-radius: 50px;
 }
-.para1{
+.para1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,52 +106,140 @@ image{
     font-size: 56px;
     opacity: 0.75;
 }
-.btn-align{
+.btn-align {
     display: flex;
     justify-content: center;
     margin-top: 2.5rem;
 }
-hr{
+hr {
     margin-top: 5rem;
 }
-footer{
+footer {
     display: grid;
-    grid-template-columns: repeat(5,270px);
+    grid-template-columns: repeat(5, 270px);
     margin-top: 50px;
     margin-bottom: 60px;
     padding: 3rem;
 }
-.footer{
+.footer {
     display: flex;
     justify-content: space-around;
     color: #333;
 }
-ol{
+ol {
     list-style: none;
 }
-.footer li{
+.footer li {
     padding-top: 20px;
 }
-.low{
+.low {
     opacity: 0.85;
 }
-.symbol{
+.symbol {
     display: flex;
 }
-.symbol li{
+.symbol li {
     padding-right: 35px;
     font-size: 2rem;
 }
-.fa-brands{
+.fa-brands {
     color: #04DDB2;
 }
-.authorname{
-    grid-column: 3/4;
+.authorname {
+    grid-column: 3 / 4;
     margin-top: 3rem;
     width: 100%;
     color: orangered;
 }
-.nameadjust{
+.nameadjust {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .navbar h1 {
+        font-size: 1.5rem;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    li a {
+        font-size: 1rem;
+    }
+    button {
+        width: 80px;
+        height: 32px;
+    }
+    button a {
+        font-size: 0.875rem;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    .hading {
+        margin-top: 20rem; 
+        flex-direction: row;
+    }
+    .title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .para {
+        font-size: 1.25rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    #pdetail {
+        font-size: 1rem;
+    }
+    .image {
+        margin-top: 2rem;
+    }
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+    .para1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    .btn-align {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer ol {
+        align-items: center;
+        text-align: center;
+    }
+    .symbol {
+        justify-content: center;
+    }
+    .symbol li {
+        padding-right: 15px;
+    }
+    .authorname {
+        grid-column: 1 / -1;
+        margin-top: 1.5rem;
+    }
 }
