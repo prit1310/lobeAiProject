@@ -243,3 +243,39 @@ ol {
         margin-top: 1.5rem;
     }
 }
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 1rem 1.5rem;
+    }
+    ul {
+        gap: 1.5rem;
+    }
+    li a {
+        font-size: 1.25rem;
+    }
+    button {
+        width: 130px;
+        height: 38px;
+    }
+    button a {
+        font-size: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .hading {
+        margin-top: 10rem;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .para {
+        font-size: 1.5rem;
+    }
+    #pdetail {
+        font-size: 1.25rem;
+    }
+    .para1 {
+        font-size: 2.5rem;
+    }
+}
