@@ -168,7 +168,7 @@ ol {
     color: #04DDB2;
 }
 .author{
-    grid-column: -5/-4;
+    grid-column: -4/-3;
     margin-top: 3rem;
     color: orangered;
 }
