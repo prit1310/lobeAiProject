@@ -168,7 +168,7 @@ ol {
     color: #04DDB2;
 }
 .author{
-    grid-column: -5/-4;
+    grid-column: -4/-3;
     margin-top: 3rem;
     color: orangered;
 }
@@ -415,35 +415,35 @@ ol {
     position: absolute;
 }
 .aws{
-    top: 930%;
+    top: 870%;
     left: 5%;
 }
 .Tensorflow{
-    top: 970%;
+    top: 910%;
     left: 8%;
 }
 .azure{
-    top: 990%;
+    top: 930%;
     left: 25%;
 }
 .apple{
-    top: 940%;
+    top: 880%;
     left: 80%;
 }
 .google{
-    top: 1000%;
+    top: 940%;
     left: 45%;
 }
 .arduino{
-    top: 975%;
+    top: 915%;
     left: 55%;
 }
 .unity{
-    top: 990%;
+    top: 930%;
     left: 70%;
 }
 .ml{
-    top: 965%;
+    top: 905%;
     left: 80%;
 }
 .review{
