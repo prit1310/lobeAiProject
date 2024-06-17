@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+}
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.navdiv {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+.navbar h1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 3rem;
+    margin: 0;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+button {
+    background-color: #04DDB2;
+    border-radius: 100px;
+    width: 148px;
+    height: 42px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+button a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+button:hover {
+    transform: scale(1.05);
+}
+li a {
+    color: gray;
+    font-size: 1.5rem;
+}
+.helpLobe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    flex-direction: column;
+}
+.helpLobe h1{
+    font-size: 56px;
+}
+.helpLobe span{
+    color: #04DDB2;
+}
+.helpLobe p{
+    font-size: 24px;
+    color: #333;
+    padding-top: 1.5rem;
+}
