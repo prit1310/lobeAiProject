@@ -35,6 +35,9 @@ body{
     align-items: center;
     gap: 0.5rem;
 }
+.navbar ul :hover{
+    transform: scale(1.05);
+}
 ul {
     display: flex;
     flex-wrap: wrap;

@@ -29,6 +29,9 @@ body{
     padding: 1rem 2rem;
     width: 100%;
 }
+.navbar ul :hover{
+    transform: scale(1.05);
+}
 .navbar h1 {
     display: flex;
     flex-wrap: wrap;

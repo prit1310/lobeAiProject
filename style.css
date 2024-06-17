@@ -20,6 +20,7 @@
 }
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 1rem 2rem;
@@ -27,11 +28,16 @@
 }
 .navbar h1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
 }
+.navbar ul :hover{
+    transform: scale(1.05);
+}
 ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 3rem;
     margin: 0;
@@ -66,6 +72,7 @@ li a {
 .heading {
     margin-top: 8rem; 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .title {
@@ -81,6 +88,7 @@ li a {
 }
 .para {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 2rem;
     margin-top: 2rem;
@@ -91,6 +99,7 @@ li a {
 }
 .image {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     border-radius: 50px;
     margin-top: 4.5rem;
@@ -100,6 +109,7 @@ li a {
 }
 .para1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 3.5rem;
@@ -108,6 +118,7 @@ li a {
 }
 .btn-align {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 2.5rem;
 }
@@ -126,6 +137,7 @@ footer {
 }
 .footer {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -145,6 +157,7 @@ ol {
 }
 .symbol {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .symbol li {
@@ -155,14 +168,14 @@ ol {
     color: #04DDB2;
 }
 .author{
-    grid-column: -5/-4;
+    grid-column: -4/-3;
     margin-top: 3rem;
     color: orangered;
-
 }
 .watchImage{
     margin-top: 8rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .watchTour{
@@ -175,6 +188,7 @@ ol {
 }
 .watchButton{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 2rem;
 }
@@ -212,6 +226,7 @@ ol {
 }
 .screenshot{
     display: flex;
+    flex-wrap:wrap ;
     justify-content: center;
     padding-top: 3rem;
 }
@@ -227,6 +242,7 @@ ol {
 }
 .information{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .templates{
@@ -244,6 +260,7 @@ ol {
 }
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -398,39 +415,40 @@ ol {
     position: absolute;
 }
 .aws{
-    top: 800%;
+    top: 930%;
     left: 5%;
 }
 .Tensorflow{
-    top: 840%;
+    top: 970%;
     left: 8%;
 }
 .azure{
-    top: 860%;
+    top: 990%;
     left: 25%;
 }
 .apple{
-    top: 800%;
+    top: 940%;
     left: 80%;
 }
 .google{
-    top: 835%;
+    top: 1000%;
     left: 45%;
 }
 .arduino{
-    top: 810%;
+    top: 975%;
     left: 55%;
 }
 .unity{
-    top: 825%;
+    top: 990%;
     left: 70%;
 }
 .ml{
-    top: 855%;
-    left: 75%;
+    top: 965%;
+    left: 80%;
 }
 .review{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -520,93 +538,5 @@ ol {
     }
     80% {
         margin-left: calc(-728px * 3);
-    }
-}
-@media (max-width: 480px) {
-    .navbar {
-        padding: 0.5rem;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .navbar h1 {
-        font-size: 0.8rem;
-    }
-    .navbar img{
-        width: 15px;
-        height: 15px;
-    }
-    ul {
-        flex-direction: row;
-        gap: 0.25rem;
-    }
-    li a {
-        font-size: 0.7rem;
-    }
-    button {
-        width: 60px;
-        height: 20px;
-    }
-    button a {
-        font-size: 0.625rem;
-    }
-    h1 {
-        font-size: 1.75rem;
-    }
-    .heading {
-        margin-top: 5rem; 
-        flex-direction: row;
-    }
-    .title {
-        font-size: 2rem;
-        text-align: center;
-    }
-    .para {
-        margin-top: 2rem;
-        font-size: 1.25rem;
-        text-align: center;
-        padding: 1rem;
-    }
-    #pdetail {
-        font-size: 1rem;    
-    }
-    .image {
-        margin-top: 2rem;
-    }
-    .image img {
-        width: 100%;
-        height: auto;
-    }
-    .para1 {
-        font-size: 2rem;
-        text-align: center;
-        padding: 0 1rem;
-    }
-    .btn-align {
-        margin-top: 1.5rem;
-        display: flex;
-        justify-content: center;
-    }
-    footer {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 1.5rem;
-    }
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer ol {
-        align-items: center;
-        text-align: center;
-    }
-    .symbol {
-        justify-content: center;
-    }
-    .symbol li {
-        padding-right: 15px;
-    }
-    .authorname {
-        grid-column: 1 / -1;
-        margin-top: 1.5rem;
     }
 }
