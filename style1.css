@@ -4,6 +4,9 @@
     padding: 0;
     text-decoration: none;
 }
+body{
+    height: 100vh;
+}
 .roboto-slab {
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -20,6 +23,7 @@
 }
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 1rem 2rem;
@@ -27,11 +31,13 @@
 }
 .navbar h1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
 }
 ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 3rem;
     margin: 0;
@@ -65,6 +71,7 @@ li a {
 }
 .example{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 7rem;
@@ -88,7 +95,10 @@ li a {
     overflow: hidden;
     font-family: Arial, sans-serif;
     margin-top: 3rem;
-    margin-left: 20%;
+    margin-left: 12rem;
+}
+.card:hover{
+    transform: scale(1.02);
 }
 .card video {
     width: 100%;
@@ -125,6 +135,7 @@ li a {
 }
 .para1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 3.5rem;
@@ -133,6 +144,7 @@ li a {
 }
 .btn-align {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 2.5rem;
 }
@@ -151,6 +163,7 @@ footer {
 }
 .footer {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -180,8 +193,63 @@ ol {
     color: #04DDB2;
 }
 .author{
-    grid-column: -5/-4;
+    grid-column: -4/-3;
     margin-top: 3rem;
     color: orangered;
-
+}
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    flex-direction: column;
+}
+.blog h1{
+    font-size: 56px;
+}
+.blog span{
+    color: #04DDB2;
+}
+.blog p{
+    font-size: 24px;
+    color: #333;
+    padding-top: 1.5rem;
+}
+.card {
+    width: 360px;
+    height: 340px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.card img {
+    width: 360px;
+    height: 203px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 10px 15px;
+    width: 360px;
+    height: 238px;
+}
+.card-content h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    font-style: bold;
+}
+.card-content p {
+    font-size: 18px;
+    margin: 0;
+    color: #555;
+}
+.card-content .release-date {
+    font-size: 16px;
+    color: #999;
+    margin-top: 10px;
+}
+.cardAlign{
+    margin-left: 37%;
 }
