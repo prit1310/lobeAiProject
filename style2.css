@@ -90,4 +90,121 @@ li a {
     font-size: 24px;
     color: #333;
     padding-top: 1.5rem;
+    padding-left: 0;
+}
+.help{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    width: 222px;
+    height: 450px;
+    padding-top: 100px;
+    padding-right: 8px;
+    margin-left: 18rem;
+}
+.alignMenu{
+    width: 200px;
+    height: 43.99px;
+    padding: 12px 0px 12px 20px;
+    font-size: 18px;
+}
+.community{
+    padding-top: 1.5rem;
+}
+.menu-content{
+    margin-left: 12rem;
+}
+.welcome{
+    background-color: #04DDB2;
+    color: white;
+    font-style: bold;
+    border-radius: 150px;
+    height: 23px;
+    width: 180px;
+}
+.welcome-content{
+    width: 580px;
+    height: 1031.950px;
+    padding-top: 100px;
+}
+.welcome-content h3{
+    width: 580px;
+    height: 50px;
+    padding-top: 1rem;
+}
+.label-content{
+    width: 580px;
+    height: 1031.950px;
+    padding-top: 100px;
+}
+.label-content h3{
+    width: 580px;
+    height: 50px;
+    padding-top: 1rem;
+}
+.para1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 56px;
+    opacity: 0.75;
+}
+.btn-align {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+hr {
+    margin-top: 5rem;
+}
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer li {
+    padding-top: 20px;
+}
+.low {
+    opacity: 0.85;
+}
+.symbol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.symbol li {
+    padding: 0 10px;
+    font-size: 2rem;
+}
+.fa-brands {
+    color: #04DDB2;
+}
+.author{
+    grid-column: -5/-4;
+    margin-top: 3rem;
+    color: orangered;
 }
